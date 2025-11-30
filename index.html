@@ -266,6 +266,24 @@
         font-size: 1.2rem;
       }
 
+      .button {
+        padding: 10px 15px;
+        background: rgba(34, 139, 34, 0.2);
+        border: 2px solid rgba(34, 139, 34, 0.3);
+        border-radius: 12px;
+        color: #86efac;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .button:hover {
+        background: rgba(34, 139, 34, 0.3);
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(34, 139, 34, 0.3);
+      }
+
       /* Responsive */
       @media (max-width: 600px) {
         .room-number {
@@ -346,6 +364,9 @@
           <div class="time">
             15:00 - 16:20 <span class="current-label">Сейчас</span>
           </div>
+
+          <button class="button">Отметиться</button>
+
           <div class="subject">Безопасность жизнедеятельности и экология</div>
           <div class="teacher">Преподаватель: Жапакова Бурул Сабырбековна</div>
           <div class="group">Группа: ПМИ-1-23</div>
